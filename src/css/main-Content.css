@@ -1,0 +1,27 @@
+/*
+//////////////////////////////////////////////////
+////////////////// MAIN CONTENT //////////////////
+//////////////////////////////////////////////////
+*/
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    /* Additional styling for background image, color, etc. */
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase; /* Auto-capitalize the heading */
+    color: #812d65;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #999;
+  }
+  

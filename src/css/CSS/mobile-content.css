@@ -1,0 +1,14 @@
+/* Hide the content by default */
+#introContent.collapsed {
+    max-height: 0;
+    overflow: hidden;
+}
+
+/* Show the content when expanded */
+#introContent.expanded {
+    max-height: none;
+}
+
+#moreText {
+    display: none;
+}
