@@ -1,0 +1,17 @@
+/*****************************************************************/
+/************************** FONTS ********************************/
+/*****************************************************************/
+
+@font-face {
+    font-family: 'Fredericka the Great';
+    src: url('/fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cedarville Cursive';
+    src: url('/fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

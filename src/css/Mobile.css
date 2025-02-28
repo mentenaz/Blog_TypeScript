@@ -1,0 +1,79 @@
+/* Default styles for desktop layout */
+.desktop-layout {
+    display: flex;
+    background-color: black;
+    color: chartreuse;
+    border-radius: 15px;
+}
+
+.Desktop-HeaderImg {
+    display: block;
+    justify-content:center
+}
+
+/* Default styles for mobile layout */
+.mobile-layout, .MobileImg {
+    display: none; /* Hide by default */
+}
+
+/* Left Container Styles */
+.left-container {
+    background-color: black;
+    font-family: 'Fredericka the Great';
+    color: chartreuse;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically */
+    flex: 1;
+}
+
+.left-container a {
+    text-decoration: none;
+    color: chartreuse;
+    margin-right: 10px; /* Adjust spacing between links */
+    font-family: 'Fredericka the Great';
+    width: 50%;
+}
+
+.Mobile-HeaderImg {
+    display: none;
+}
+
+.Desktop-HeaderImg {
+    display: block;
+    /*text-align: center;*/
+    justify-items:center;
+   
+}
+/* Media query for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+    .desktop-layout, .Desktop-HeaderImg, .right-container, .left-container {
+        display: none;
+    }
+
+    .mobile-layout {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        background-color: black;
+        color: chartreuse;
+        border-radius: 15px;
+    }
+
+    .Mobile-Links {
+        display: block;
+        flex-direction: column;
+    }
+
+    .Mobile-HeaderImg {
+        display: block;
+        text-align: center;
+    }
+
+    .Desktop-HeaderImg {
+        display: none;
+    }
+}
+

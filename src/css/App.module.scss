@@ -1,0 +1,44 @@
+body {
+	color: #999;
+}
+header {
+	text-align: right;
+}
+.App {
+	text-align: center !important;
+}
+.workDir {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: end;
+}
+
+.App-logo {
+	height: 30%;
+	text-align: right;
+	pointer-events: none;
+}
+
+form {
+	text-align: left;
+	font-size: 14px;
+}
+
+.form-check {
+	align-items: end;
+}
+.App-header {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	text-align: end;
+	justify-content: center;
+	font-size: calc(8px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	font-size: 14px;
+}

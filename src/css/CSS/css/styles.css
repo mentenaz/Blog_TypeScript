@@ -1,0 +1,415 @@
+
+body {
+    background-color: #333;
+}
+header {
+    background-color: black;
+    padding: 0;
+    text-align: center;
+    width: 100%;                
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+}
+.logo-container {
+    margin-left: auto;
+}
+nav {
+    text-align: right;
+}
+footer {
+    background-color: black;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#desktop-menu-img {
+    display: block;
+    text-align: center;
+    height: 50px;
+    font-weight: 50px;
+}
+#mobile-menu {
+    display: none;
+}
+
+.mobile-name-text {
+    display: none;
+}
+
+/* Mobile menu styles (inside a media query) */
+@media (max-width: 768px) {
+    /* Hide desktop menu */
+    .menu {
+        display: none;
+    }
+
+    /* Show mobile menu */
+    .mobile-menu {
+        display: block;
+        text-align: center;
+    }
+
+    /* Mobile menu styles */
+
+    .mobile-menu li {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: chartreuse;
+    }
+
+    #intro-wrap {
+        display: none;
+    }
+
+    .mobile-menu li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: chartreuse;
+    }
+
+    .mobile-menu-item {
+        margin-right: 20px;
+        display: block;                
+    }
+    
+    .mobile-menu .mobile-dropdown-menu {
+        display: none;
+    }
+
+    .mobile-dropdown:hover .mobile-dropdown-menu {
+        display: block;
+    }
+    .mobile-dropdown-content {
+        display: block;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        z-index: 1;
+    }
+    #mobile-menu-img {
+        display: block;
+        text-align: center;
+        height: 50px;
+        font-weight: 50px;
+    }
+
+    .mobile-dropdown-menu {
+        display: block;
+    }
+    #mobileLogo {
+        height: 150px;
+        width: auto;
+    }
+    #MobileLinks1 {
+        flex-direction: column;
+    }
+
+    .name-text {
+        display: none;                
+    }
+
+    .mobile-name-text {
+        display: block;
+        color: #666;
+        font-family: 'Fredericka the Great', fantasy;
+        font-style: italic;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+        text-transform: uppercase;                
+    }
+}
+
+.mobile-dropdown-content .mobile-dropdown-menu .mobile-dropdown:hover .mobile-menu #mobile-menu-img {
+    display: none;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.menu-item {
+    margin-right: 20px;
+    display: inline-block;                
+}
+.menu li {
+    margin-right: 20px;
+    display: inline-block;
+}            
+.menu li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: chartreuse;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    right: 0;
+    font-family: 'Fredericka the Great';
+}
+.dropdown-menu li {
+    margin-bottom: 10px;
+}
+.dropdown-menu li {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: chartreuse;
+    font-family: 'Fredericka the Great';
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: chartreuse;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+.dropdown-content a:hover {
+    color: #999;
+    width: 100%;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown {
+    background-color: black;
+}            
+.home-head-text-wrap {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Fredericka the Great', sans-serif;
+}
+.paragrath-light {
+    color: #666;
+    font-size: 16px;
+    font-family: 'Fredericka the Great';
+    border-radius: 15px;
+    /*border: 2px solid #666;*/
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    /*font-weight: bold;*/
+}
+.section {
+    background-color: #333;
+    padding: 20px;
+}
+@font-face {
+    font-family: 'Fredericka the Great';
+    src: url('/fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cedarville Cursive';
+    src: url('/fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.name-text {
+    color: #666;
+    /*color: chartreuse;*/
+    font-family: 'Fredericka the Great', fantasy;
+    /*font-weight: bold;*/
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;                
+}
+.career-headline-wrap {
+    color: #333;
+    font-size: 20px;
+    font-family: 'Fredericka the Great';
+    font-weight: bold;
+    font-style: italic;
+}
+.intro-wrap {
+    text-align: center;
+    margin-top: 100px;
+}
+.plain-text {
+    color: #666;
+    font-family: 'Fredericka the Great', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.quote-message {
+    color: #666;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Fredericka the Great';
+    /*border: 2px solid #666;*/
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    color: #666;
+    text-align: center;    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+                 
+}
+
+.form-group {
+    margin-bottom: 20px;                                
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Fredericka the Great';
+    text-align: center;
+}
+
+.form-input, .form_textarea {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #333;
+    color: #666;
+    font-family: 'Fredericka the Great';
+}
+
+.footer-section {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}        
+.footer-section p, .footer-section a {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}        
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}        
+.footer-section ul li {
+    margin-left: 10px;
+}        
+.footer-section ul li:first-child {
+    margin-left: 0;
+}        
+.footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+}
+.popup-container {
+    background-color: #333;
+    color: #666;
+    font-family: 'Fredericka the Great';
+    display: none;
+}
+.popup-content {
+    font-family: 'Fredericka the Great';
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+    border: 5px solid black;
+}
+#privacy-policy-popup, #terms-of-service-popup {
+    display: none;
+    position: absolute;
+}
+
+.modal-container {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.modal-content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80vw;
+    text-align: left;
+    display: block;
+}
+.button {
+    color: #333;
+    background-color: #666;
+}
+.button:hover {
+    color: #333;
+    background-color: #999;
+}
+
+.popup-container {
+    background-color: #333;
+    color: #666;
+    font-family: 'Fredericka the Great';
+    display: none;
+}
+
+.popup {
+    background-color: #333; /* Updated background color to #333 */
+    color: chartreuse; /* Text color inside the popup */
+    padding: 20px; /* Padding around the popup content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow for the popup */
+    max-width: 400px; /* Maximum width of the popup */
+    margin: 0 auto; /* Center the popup horizontally */
+}
+
+.bio-section {
+    
+    font-style: italic;
+    color: #666;
+    font-size: 16px;
+    font-family: 'Cedarville Cursive';
+    border-radius: 15px;
+    /*border: 2px solid #666;*/
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}

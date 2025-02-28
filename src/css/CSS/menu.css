@@ -1,0 +1,35 @@
+
+
+/* Mobile menu styles (inside a media query) */
+@media (max-width: 768px) {
+    /* Hide desktop menu */
+    .menu {
+        display: none;
+    }
+
+    /* Show mobile menu */
+    .mobile-menu {
+        display: block;
+    }
+
+    /* Mobile menu styles */
+
+    .mobile-menu li {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: chartreuse;
+    }
+
+    .mobile-menu li a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: chartreuse;
+    }
+        
+
+    .mobile-menu .dropdown-menu {
+        display: block;
+    }
+}

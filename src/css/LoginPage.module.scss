@@ -1,0 +1,104 @@
+.login-container {
+	margin: 0 auto;
+	width: 80%;
+	background: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	box-shadow: 0 0 20px 6px #090b6f85;
+}
+
+@media (max-width: 980px) {
+	.login-container {
+		flex-flow: wrap;
+		text-align: center;
+		align-content: center;
+		align-items: center;
+	}
+}
+
+.left-section {
+	flex: 1; /* Ensure both sections are flexible */
+	color: #ffffff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../Images/Tropical.png");
+	overflow: hidden;
+}
+
+.overlay {
+	padding: 30px;
+	background: #5961f9ad;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.overlay h1 {
+	font-size: 6vmax; /* Adjusted size for better fit */
+	line-height: 1;
+	font-weight: 900;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.social-login p {
+	margin-top: 30px;
+	font-weight: 900;
+}
+
+.social-login a {
+	background: #3b5998;
+	color: #ffffff;
+	margin-top: 10px;
+	padding: 14px 50px;
+	border-radius: 100px;
+	display: inline-block;
+	box-shadow: 0 3px 6px 1px #042d4657;
+}
+
+.Social_Login {
+	/* // display: col; */
+	align-items: center;
+	/* // justify-content: center; */
+	margin-bottom: 3px;
+}
+
+.social-login a:last-child {
+	background: #1dcaff;
+	margin-left: 20px;
+}
+
+.right-section {
+	flex: 1; /* Make right section flexible as well */
+	padding: 40px;
+	max-width: 500px; /* Limit the width of the right container */
+	width: 100%;
+}
+
+@media (max-width: 980px) {
+	.right-section {
+		max-width: 100%; /* Ensure full width on small screens */
+		width: 100%;
+	}
+}
+
+.toggle-button {
+	background-color: #007bff;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.toggle-button:hover {
+	background-color: #0056b3;
+}

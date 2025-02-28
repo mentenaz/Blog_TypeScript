@@ -1,0 +1,31 @@
+/* Modal Container Styles */
+.modal-container {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Modal Content Styles */
+.modal-content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80vw;
+    text-align: left;
+    display: block;
+}
+
+/* Modal Button Styles */
+.modal-button {
+    padding: 10px 20px;
+    color: #333;
+    background-color: #666;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-button:hover {
+    background-color: #333;
+    color: chartreuse;
+}

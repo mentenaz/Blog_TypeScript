@@ -1,0 +1,45 @@
+/* Style for the row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style for the left column */
+.left-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Style for the right column */
+.right-column {
+    flex: 1;
+}
+
+ /* Style for column items with box shadow and rounded edges */
+/* Style for column items with a bigger box shadow and rounded edges */
+.column-item {
+    background-color: #666;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Add rounded edges */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Add a bigger box shadow */
+    font-family: 'Fredericka the Great';
+}
+
+
+/* Style for column titles */
+.column-title {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Fredericka the Great';
+}
+
+/* Style for column descriptions */
+.column-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    font-family: 'Fredericka the Great';
+}

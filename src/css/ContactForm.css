@@ -1,0 +1,85 @@
+/****************************************************************/
+/********************* FORM STYLE *******************************/
+/****************************************************************/
+
+.form-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #666;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Fredericka the Great';
+    text-align: center;
+}
+
+.form-input, .form_textarea {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    /*background-color: #333;*/
+    color: #666;
+    font-family: 'Fredericka the Great';
+}
+
+.footer-section {
+    /*background-color: #333;*/
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+.footer-section p, .footer-section a {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer-section ul li {
+    margin-left: 10px;
+}
+.footer-section ul li:first-child {
+    margin-left: 0;
+}
+.footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+}
+.button {
+    color: #333;
+    background-color: #666;
+}
+.button:hover {
+    color: #333;
+    background-color: #999;
+}
+
+.bio-section {
+    
+    font-style: italic;
+    color: #666;
+    font-size: 16px;
+    font-family: 'Cedarville Cursive';
+    border-radius: 15px;
+    border: 2x solid #666;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
